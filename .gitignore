@@ -1,0 +1,49 @@
+# Dependencias
+node_modules/
+.pnpm-store/
+.pnpm-debug.log
+pnpm-lock.yaml
+
+# Archivos de entorno
+.env
+.env.*.local
+.env.local
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log*
+*.log
+
+# Directorios de producción (si los generas)
+dist/
+build/
+
+# Cache
+.cache/
+.tmp/
+
+# MacOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Heroku
+.heroku/
+
+# Supabase
+.supabase/
+
+# Coverage tests
+coverage/
+
+# Local server files
+*.pid
+*.seed
+
+# TypeScript cache (si llegaras a usar TS)
+*.tsbuildinfo
